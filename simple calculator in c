@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<conio.h>
+int add(int, int);
+int min(int, int);
+int mul(int, int);
+int divi(int, int);
+int mod(int, int);
+
+int main()
+{
+    printf("%d\n",add(1,2));
+    printf("%d\n",min(1,2));
+    printf("%d\n",mul(1,2));
+    printf("%d\n",divi(1,2));
+    printf("%d\n",mod(1,2));
+    
+    getch();
+    
+}
+
+
+add(int a, int b)
+{
+int c=a+b;
+return c;    
+}
+min(int a, int b)
+{
+int c=a-b;
+return c;    
+}
+mul(int a, int b)
+{
+int c=a*b;
+return c;    
+}
+divi(int a, int b)
+{
+int c=a/b;
+return c;    
+}
+mod(int a, int b)
+{
+int c=a%b;
+return c;    
+}
